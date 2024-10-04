@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz applet</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="quiz-app">
+        <div id="start-page">
+            <h1>Prominent Filipino artists and authors</h1>
+            <button id="start-button">Start Quiz</button>
+        </div>
+        <div id="quiz-page" class="hidden">
+            <div id="quiz-container">
+                <div id="question"></div>
+                <div id="options"></div>
+                <div id="timer">Time left: <span id="time">50</span> seconds</div>
+                <button id="next-button">Next question</button>
+            </div>
+        </div>
+        <div id="result-page" class="hidden">
+            <h2>Result</h2>
+            <div id="results"></div>
+            <div id="summary"></div>
+            <button id="retake-button">Retake Quiz</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
